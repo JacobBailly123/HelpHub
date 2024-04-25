@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Charities Near You</title>
+    <nav class="navbar-charity-near">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="charities.html">Charities</a></li>
+            <li><a href="charity_profile.html">Charity Profile</a></li>
+            <li><a href="charity_near.html">Charities Near You</a></li>
+        </ul>
+    </nav>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-WHg2Api1nF00oKSthD4q01E4y165vY0&libraries=places&callback=initMap" async defer></script>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Charities Near You</h1>
+    <div id="map"></div>
+    <script src="charity_near.js"></script>
+</body>
+</html>

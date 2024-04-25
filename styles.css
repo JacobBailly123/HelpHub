@@ -1,0 +1,168 @@
+
+body, h1, h2, h3, p, ul, li, button, input, form {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Form elements */
+input[type="text"], input[type="email"], input[type="tel"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    section {
+        padding: 10px;
+    }
+}
+
+
+#more-info {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+/* CSS styles specific to the navigation bar on the "Charities Near You" page */
+.navbar-charity-near {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar-charity-near ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-charity-near li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar-charity-near li:last-child {
+    margin-right: 0;
+}
+
+.navbar-charity-near a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-charity-near a:hover {
+    text-decoration: underline;
+}
